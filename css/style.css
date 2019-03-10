@@ -1,0 +1,286 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/helvetica.otf);
+}
+
+@font-face {
+    font-family: Helvetica-Regular;
+    src: url(..fonts/helvetica-Regular.otf);
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Open-Sans, sans-serif;
+    color: white;
+}
+
+input {
+    color: #a6a6a6;
+    font-family: Helvetica-Regular, sans-serif;
+}
+
+/*----------Home--------------*/
+
+#home {
+	width: 100%;
+	height: 1124px;
+    background: url(../img/topimg.png);
+    background-size: cover;
+    position: relative;
+}
+
+/*----------------Header--------------*/
+
+.header {
+	width: 100%;
+    height: 92px;
+    border-bottom: 1px solid rgb(255, 255, 255, .25);
+}
+
+.header__content {
+	width: 97%;
+    max-width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content > .logo-brand {
+	background: none;
+}
+
+.header__content .navbar {
+    width: 812px;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.header__content .navbar div {
+    height: 100%;
+    width: auto;
+}
+
+.header__content .navbar a {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    height: 100%;
+    padding-top: 36px;
+}
+
+.header__content .navbar a:hover {
+    border-bottom: 1px solid white;
+}
+
+.home__header .flag {
+    width: 19px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.home__header .menu {
+    width: auto;
+    height: 100%;
+    display: none;
+}
+
+.home__header .menu img {
+    padding: 5px;
+    border: 3px solid white;
+    border-radius: 8px;
+    opacity: .7;
+}
+
+.header-scroll {
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    background: rgb(61, 25, 138, .8);
+}
+
+.header-scroll a {
+    padding-top: 5px;
+}
+
+/*-----------Home: Banner--------------*/
+
+.home__banner {
+	width: 1170px;
+    height: 1030px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.home__banner .plus-one {
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    left: 953px;
+    top: 197px;
+}
+
+.home__banner .plus-one img {
+    width: 100%;
+    height: auto;
+}
+
+.home__banner .with-us {
+    width: 356px;
+    height: 81px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 245px;
+    left: 185px;
+}
+
+.home__banner .with-us h5 {
+    padding-left: 21px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.home__banner .plus-two {
+	width: 82px;
+	height: auto;
+}
+
+.home__banner .plus-three {
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 436px;
+    left: 620px;
+}
+
+.home__banner .welcome {
+	width: 1100px;
+	height: 200px;
+    float: left;
+    margin-top: 579px;
+    position: relative;
+}
+
+.home__banner .welcome .top-text {
+	height: 18px;
+    width: 350px;
+}
+
+.home__banner .welcome .top-text h3  {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.home__banner .welcome .top-line {
+    width: 500px;
+    height: 1px;
+    background: white;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+
+.home__banner .welcome .bottom-text {
+    width: 960px;
+    height: 124px;
+}
+
+.home__banner .welcome .bottom-text div {
+    width: 100%;
+    height: 125px;
+    font-size: 124px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.home__banner .welcome .bottom-text div span {
+    color: #6d61c1;
+}
+
+.home__banner .welcome .bottom-line {
+    background: #f2f2f2;
+    height: 1px;
+    width: 492px;
+    margin-top: 15px;
+    float: right;
+}
+
+.home__banner .go-over {
+	width: 174px;
+	height: 52px;
+    background-color: #6d61c1;
+    border-radius: 26px;
+    position: absolute;
+    top: 784px;
+    left: 0;
+}
+
+.home__banner .go-over a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 41px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.home__banner .go-over a img {
+    width: 14px;
+    height: 11px;
+    margin-left: 14px;
+}
+
+.home__banner .mouse {
+	width: 30px;
+    height: 85px;
+    position: absolute;
+    bottom: 40px;
+    left: 570px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+
+@media (max-width: 767px) {
+    
+}
+
+
+
+@media (max-width: 480px) {
+    
+    #home {
+
+        background: blue;
+    }
+    
+}
+

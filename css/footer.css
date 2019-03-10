@@ -1,0 +1,103 @@
+.footer {
+	width: 100%;
+    height: 170px;
+    background: #333333;
+}
+
+.bkg {
+	background: #3d3d3d;
+    width: 100%;
+    height: 108px;
+    position: absolute;
+}
+
+.footer__contain {
+	width: 97%;
+    max-width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    background: pink;
+    display: grid;
+    position: relative;
+    z-index: 200;
+    grid-template-areas: 
+        "logo bar social"
+        "copy copy copy";
+    grid-template-columns: 106px 1fr 180px;
+    grid-template-rows: 108px 1fr;
+}
+
+.logo-brand {
+	grid-area: logo;
+}
+
+.logo-brand span:first-child {
+    font-size: 37px;
+}
+
+.logo-brand p {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.logo-brand span:last-child {
+    color: #675db1;
+}
+
+.nav-bott {
+	grid-area: bar;
+    justify-content: space-around;
+}
+
+.nav-bott a {
+    font-size: 14px;
+    margin-left: 13px;
+    color: #a8a8a8;
+}
+
+.nav-bott a:hover {
+    color: #c9c9c9;
+}
+
+
+.social-logo {
+	grid-area: social;
+}
+
+.copy {
+	grid-area: copy;
+}
+
+.logo-brand, .nav-bott, .social-logo, .copy {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-brand, .nav-bott, .social-logo {
+    background: #3d3d3d;
+}
+
+.copy {
+	background: #333333;
+}
+
+.copy p {
+    font-size: 16px;
+    font-family: Helvetica-Regular, sans-serif;
+    color: #8c8c8c;
+}
+
+.social-logo {
+	justify-content: space-around;
+}
+
+.social-logo div {
+    width: 32px;
+    height: 32px;
+    background: white;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

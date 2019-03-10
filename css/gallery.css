@@ -1,0 +1,112 @@
+.gallery {
+	width: 100%;
+    height: 1435px;
+/*    background: #edaff5;*/
+}
+
+.gallery__top {
+	width: 97%;
+    max-width: 1170px;
+    height: 310px;
+    margin: 0 auto;
+    padding-top: 88px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.gallery__top .logo {
+}
+
+.gallery__top .auto-subtitle {
+	text-align: center;
+    width: 693px;
+    margin: 40px auto;
+}
+
+.gallery__top .auto-subtitle p {
+    font-size: 14px;
+    font-family: Helvetica-Regular, sans-serif;
+    color: #b2b2b2;
+}
+
+.gallery__top .gallery-list {
+	width: 464px;
+    height: 20px;
+    margin: 60px auto;
+}
+
+.gallery__top .gallery-list ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.gallery__top .gallery-list ul li a {
+    font-size: 18px;
+    color: #282828;
+}
+
+.gallery__top .gallery-list ul li a:hover {
+    color: #6d61c1;
+}
+
+.gallery__bottom .gallery-content .to-gallery > .center a:hover {
+    color: #6d61c1;
+}
+
+.gallery__bottom {
+	background: url(../img/gallery/cars.png) 0 0 no-repeat;
+    background-size: contain;
+    height: 1125px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.gallery__bottom .gallery-content {
+	width: 97%;
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gallery__bottom .gallery-content .to-gallery {
+	width: 265px;
+	height: 45px;
+    position: absolute;
+    top: 700px;
+}
+
+.gallery__bottom .gallery-content .to-gallery > .left {
+	float: left;
+    margin-left: 15px;
+    width: 117px;
+    height: 100%;
+    border-top: 1px solid #d9d9d9;
+}
+
+.gallery__bottom .gallery-content .to-gallery > .right {
+    float: right;
+    margin-right: -50px;
+    width: 117px;
+    height: 100%;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.gallery__bottom .gallery-content .to-gallery > .center {
+    width: 200px;
+    height: 100%;
+    right: 10px;
+    position: absolute;
+    z-index: 77;
+    text-align: right;
+    padding: 15px 0 15px;
+}
+
+.gallery__bottom .gallery-content .to-gallery > .center a {
+    text-transform: uppercase;
+    color: #282828;  
+}
+

@@ -1,0 +1,356 @@
+.registry {
+	width: 1954wh;
+    height: 1008px;
+}
+
+.content {
+    width: 1170px;
+    height: 870px;
+    margin: auto;
+    background: #ffffff;
+    position: relative;
+    padding-top: 95px;
+    border-left: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    border-bottom-left-radius: 14px;
+}
+
+.log-auto {
+	width: 340px;
+	height: 74px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.log-auto .auto {
+	width: 223px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-auto .auto p {
+    font-size: 95px;
+    font-weight: 700;
+    line-height: 45.11px;
+    color: #dcdcdc;
+}
+
+.log-auto .text-auto {
+	position: absolute;
+    width: 100%;
+    height: 32px;
+    z-index: 77;
+    top: 28px;
+    background-color: #ffffff;
+    opacity: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.log-auto .text-auto p {
+    color: #282828;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Helvetica-Regular, sans-serif;
+}
+
+.registry .auto-subtitle {
+    width: 700px;
+    height: 32px;
+    margin: 38px auto;
+}
+
+.registry .auto-subtitle p {
+    font-size: 14px;
+    text-align: center;
+    font-family: Helvetica-Regular, sans-serif;
+    color: #b2b2b2;
+}
+
+.registry__welcome {
+	width: 720px;
+	height: 500px;
+    margin-top: 115px;
+    position: relative;
+}
+
+.registry__welcome img:nth-child(1){
+    position: absolute;
+    left: 120px;
+}
+
+.registry__welcome img:nth-child(2){
+    position: absolute;
+    left: 56px;
+    bottom: 10px;
+}
+
+.registry__welcome img:nth-child(3){
+    position: absolute;
+    left: 626px;
+    top: 20px;
+}
+
+.registry__welcome img:nth-child(4){
+    position: absolute;
+    left: 528px;
+    top: 153px;
+}
+
+.registry__welcome img:nth-child(5){
+    position: absolute;
+    left: 458px;
+    top: 120px;
+}
+
+.eight {
+	font-size: 28px;
+    color: #ebebeb;
+    position: absolute;
+    right: 0;
+    
+}
+
+.registry__welcome .welcome-title {
+	width: 360px;
+	height: auto;
+    position: absolute;
+    top: 57px;
+    left: 40px;
+}
+
+.registry__welcome .welcome-title p {
+    text-transform: uppercase;
+    color: #444444;
+    font-size: 18px;
+}
+
+.registry__welcome .brand-title {
+	width: 225px;
+    height: auto;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+.registry__welcome .brand-title h1 {
+    color: #6d61c1;
+    font-size: 30px;
+}
+
+.registry__welcome .inform {
+	width: 100%;
+    height: 210px;
+    position: absolute;
+    top: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.registry__welcome .inform .inform-text {
+	width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.registry__welcome .inform .inform-text .mark {
+	width: 14px;
+    height: 14px;
+    background: #6d61c1;
+    border-radius: 50%;
+    margin-left: -7px;
+}
+
+.registry__welcome .inform .inform-text .mark-t {
+    width: 20px;
+    height: 14px;
+    background: #6d61c1;
+    border-radius: 50%;
+    margin-left: -7px;
+}
+
+.registry__welcome .inform .inform-text p {
+    display: block;
+    margin-left: 35px;
+    font-size: 16px;
+    font-family: Helvetica-Regular, sans-serif;
+    color: #a6a6a6;
+}
+
+.registry .left-border {
+    width: 370px;
+    height: 537px;
+    border: 1px solid #e9e9e9;
+    position: absolute;
+    bottom: -1px;
+    right: -70px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    
+    
+	
+}
+
+.registry .left-border .angle {
+	width: 104px;
+	height: 120px;
+    float: right;
+    margin-right: -1px;
+    margin-top: -1px;
+    border-top-right-radius: 14px;
+    border-right: 1px solid #6d61c1;
+    border-top: 1px solid #6d61c1;
+
+}
+
+.registry .left-border img {
+    width: 28px;
+    height: 51px;
+    position: absolute;
+    top: 223px;
+    right: -14px;
+}
+
+.registry__form {
+	width: 395px;
+    height: 543px;
+    background-color: #ffffff;
+    border: 1px solid #e9e9e9;
+    border-radius: 14px;
+    position: absolute;
+    top: 364px;
+    left: 775px;
+    z-index: 33;
+}
+
+.registry__form .form-title {
+    width: 100%;
+    height: auto;
+    margin: 40px 36px;
+}
+
+.registry__form .form-title p {
+    color: black;
+    font-size: 18px;
+}
+
+.registry__form ul {
+    width: 316px;
+    height: auto;
+    margin: 0 auto;
+    background: url(../img/registry/imprint.png);
+    background-size: cover;
+}
+
+.registry__form ul li {
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid #a6a6a6;
+    margin-top: 20px;
+}
+
+.registry__form ul li img {
+    width: 100%;
+    height: auto;
+}
+
+.registry__form ul li .icon-men {
+    width: 16px;
+    height: 100%;
+    float: left;
+    padding-top: 2px;
+}
+
+.registry__form ul li .icon {
+	width: 16px;
+    height: 100%;
+    float: left;
+    padding-top: 4px;
+}
+
+.registry__form ul li input {
+    padding-left: 10px;
+    width: 270px;
+    float: left;
+    height: 100%;
+    margin-left: 10px;
+    border: none;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
+.registry__form .select {
+    height: 30px;
+    width: 316px;
+    margin: 0 auto;
+}
+
+.registry__form .sel-top {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registry__form .city, .registry__form .category {
+	width: 146px;
+    height: 100%;
+    display: flex;
+    border-bottom: 1px solid #a6a6a6;
+}
+
+.registry__form .city .icon {
+	width: 16px;
+    height: auto;
+    padding-top: 6px;
+}
+
+.registry__form #city, #category {
+    margin-left: 10px;
+    width: 290px;
+    color: black;
+    font-family: Helvetica-Regular, sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+#city option, #category option {
+    font-family: Helvetica-Regular, sans-serif;
+    color: black;
+}
+
+
+
+.sel-bottom input {
+    margin-left: 10px;
+    width: 290px;
+    color: black;
+    font-family: Helvetica-Regular, sans-serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.registry__form button {
+    width: 316px;
+    height: 53px;
+    display: block;
+    margin: 47px auto;
+    border: none;
+    border-radius: 25px;
+    background: #6d61c1;
+    font-family: Helvetica-Regular, sans-serif;
+    font-size: 16px;
+}
+
+.registry__form button:hover {
+    background: #5b4bd0;
+}

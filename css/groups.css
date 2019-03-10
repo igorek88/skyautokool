@@ -1,0 +1,178 @@
+.groups {
+	width: 100%;
+    height: 1700px;
+}
+
+.groups__content-top {
+	width: 100%;
+    min-height:230px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.logo {
+	width: 700px;
+	height: 145px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.logo > p {
+    padding-top: 35px;
+	color: #8c8c8c;
+    font-family: Helvetica-Regular, sans-serif;
+    font-size: 14px;
+}
+
+.logo h1 {
+    font-size: 100px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: .7;
+    color: #dcdcdc;
+    font-weight: bold;
+}
+
+.logo__text {
+	width: 350px;
+    height: 32px;
+    position: absolute;
+    top: 30px;
+    left: 175px;
+    background:rgb(255, 255, 255,.6);
+    border-bottom: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    padding: 6px 0 6px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+}
+
+.logo__text p {
+    color: #282828;
+    font-family: Helvetica-Regular, sans-serif;
+}
+
+
+.groups__content-item {
+    width: 100%;
+    height: 505px;
+}
+
+.groups__content-item .moto-bkg {
+	width: 600px;
+    height: 100%;
+    background: url(../img/groups/group-moto.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: left;
+}
+
+.groups__content-item .groups-list {
+	width: 97%;
+    max-width: 1170px;
+    height: 505px;
+    margin: 0 auto;
+    z-index: 90;
+    position: relative;
+}
+
+.groups-list-info {
+	width: 650px;
+	height: 400px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.groups-list-info .visible-info {
+	width: 100%;
+	height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.groups-list-info .visible-info .icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: url(../img/groups/icon20px.png) 0 0 no-repeat;
+}
+
+.icon-minus {
+	width: 20px;
+    height: 20px;
+    float: left;
+    background: url(../img/groups/minus20.png) 0 0 no-repeat !important;
+}
+
+groups-list-info .visible-info .icon {
+    display: flex;
+    align-items: center;
+}
+
+.groups-list-info .visible-info h1 {
+    font-size: 18px;
+    font-family: Helvetica-Regular, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #282828;
+}
+
+.groups-list-info .visible-info .visible-bot {
+	width: 610px;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted black;
+}
+
+.groups-list-info .invisible-info {
+    width: 610px;
+	height: 90px;
+    margin-left: 40px;
+    border-bottom: 1px dotted black;
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.groups-list-info .invisible-info p {
+    font-family: Helvetica-Regular, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: left;
+    color: #8c8c8c;
+}
+
+.logo-bottom {
+	margin-top: 200px;
+}
+
+.to-groupe {
+	width: 300px;
+	height: 60px;
+    background: #444444;
+    margin: 170px auto;
+    border-radius: 30px;
+}
+
+.to-groupe a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica-Regular, sans-serif;
+    font-size: 24px;
+}
